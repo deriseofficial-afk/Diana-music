@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐅𝐨𝐫 𝐍𝐨𝐛𝐢𝐭𝐚 𝐑𝐞𝐩𝐨𝐬 ✪
+✪ 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐅𝐨𝐫 𝙊𝙧𝙗𝙞𝙣𝙚𝙭𝙓 𝙍𝙚𝙥𝙤𝙨 ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -32,11 +32,11 @@ async def start(_, msg):
           InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/NOBITA_MUSIC_SUPPORT"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/ll_YOURR_NOBITA_ll"),
+          InlineKeyboardButton("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/OrbinexX_Society"),
+          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/nooneisminee"),
           ],
                [
-                InlineKeyboardButton("𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url="https://t.me/OG_DEFAULTERS_001"),
+                InlineKeyboardButton("𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url="https://t.me/orbinexxbotz"),
 
 ],
 [
@@ -71,7 +71,7 @@ InlineKeyboardButton("𝗦𝗨𝗣𝗘𝗥-𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/d9bddd89a8070632de73e.jpg",
+        photo="https://files.catbox.moe/zt7p3p.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -94,7 +94,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/itzshukla/STRANGER-MUSIC) | [UPDATES](https://t.me/ll_YOURR_NOBITA_ll)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/itzshukla/STRANGER-MUSIC) | [UPDATES](https://t.me/orbinexxbotz)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
